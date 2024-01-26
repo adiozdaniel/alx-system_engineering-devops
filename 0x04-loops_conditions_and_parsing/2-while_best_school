@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# A script that loops Best School 10 times!
+# You must use the while loop (for and until are forbidden)
 
 i=1
 
