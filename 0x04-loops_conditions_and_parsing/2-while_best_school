@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # You must use the while loop (for and until are forbidden)
-
 i=1
-
 while [ $i -le 10 ]
 do
     echo "Best School"
