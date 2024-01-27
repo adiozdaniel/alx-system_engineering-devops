@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+# This is manage_my_process script
+
+start_process() {
+    while true; do
+        echo "I am alive!" >> /tmp/my_process
+        sleep 2
+    done
+}
+
+# Restart the process again!
+restart_process() {
+    stop_process
+    start_process
+}
+
+# Kill any process that matches the pattern
+stop_process() {
+    pkill -f "I am alive!"
+}
+
+# Check the command-line argument to re-start again!
+case "$1" in
+    start)
+        start_process
+        ;;
+    restart)
+        restart_process
+        ;;
+    stop)
+        stop_process
+        ;;
+    *)
+        exit 1
+        ;;
+esac
+
+exit 0
