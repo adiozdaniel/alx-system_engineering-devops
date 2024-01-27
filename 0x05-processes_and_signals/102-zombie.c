@@ -18,6 +18,7 @@ int infinite_while(void)
 
 /**
  * main - This program does five zombie processes
+ * program written by Adioz
  * Return: zero!
 */
 
