@@ -308,3 +308,5 @@ ubuntu@03-web-01:~$ file 01-03-2017.tar.gz
 01-03-2017.tar.gz: gzip compressed data, from Unix, last modified: Wed Mar  1 23:38:09 2017
 ubuntu@03-web-01:~$
 ```
+
+@Copyright (c) 2024 @Eng. Adioz
